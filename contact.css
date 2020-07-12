@@ -65,12 +65,3 @@ body{
 .fb:hover{
 	background-size: 100%;
 }
-.footer{
-	margin-top:10px;
-	text-align: center;
-	background: white;
-	height: 10px;
-	width: 100%;
-	padding: 20px;
-	opacity: 0.6;
-}

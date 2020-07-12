@@ -1,6 +1,8 @@
 body{
 	background-image: hobby.jpg;
 	background-size: cover;
+	width: 100%;
+	height: 100%;
 	background-attachment: fixed;
 	margin: 0;
 	padding: 0;
@@ -11,7 +13,7 @@ body{
 }
 .tm-header{
 	background:#1D5C73;
-	margin:0 ;
+	
 	height :70px;
 	width: 100%;
 }
@@ -39,6 +41,7 @@ body{
 }
 
 .interest{
+	max-width: 100%;
 	text-align: center;
 }
 .interest >div{
@@ -73,13 +76,4 @@ p{
 .code{
 	
 	padding: 30px;
-}
-.footer{
-	margin-top:10px;
-	text-align: center;
-	background: white;
-	height: 10px;
-	width: 100%;
-	padding: 20px;
-	opacity: 0.6;
 }

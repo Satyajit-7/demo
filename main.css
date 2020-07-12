@@ -2,17 +2,17 @@
 
 body{
 	background :#eeeeee;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 	
 }
 
 .tm-container{
 	
-	margin:0 auto;
+	
 }
 .tm-header{
 	background:#1D5C73;
-	margin:0 ;
 	height :70px;
 	width: 100%;
 
@@ -42,6 +42,7 @@ body{
 	float: right;
 }
 .background-wrap{
+	background-size: cover;
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -50,7 +51,7 @@ body{
 	z-index: -1000;
 	overflow: hidden;
 }
-.marquee{
+.marquee{overflow: hidden;
 	font-size: 20;
 	color: #F8F711;
 }
@@ -71,13 +72,4 @@ body{
 	float: right;
 	opacity: 0.9;
 	
-}
-.footer{
-	margin-top:10px;
-	text-align:center;
-	background: white;
-	height: 10px;
-	width: 100%;
-	padding: 20px;
-	opacity: 0.6;
 }
